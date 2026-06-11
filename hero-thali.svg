@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7e8"/><stop offset="1" stop-color="#dff7ee"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#092b2a" flood-opacity=".18"/></filter></defs>
+<rect width="900" height="720" rx="52" fill="url(#bg)"/><circle cx="742" cy="120" r="120" fill="#f3b65f" opacity=".25"/><circle cx="174" cy="616" r="160" fill="#2f8f7f" opacity=".18"/>
+<ellipse cx="452" cy="380" rx="330" ry="230" fill="#fdfcf6" filter="url(#sh)"/><ellipse cx="452" cy="380" rx="286" ry="190" fill="#eaf7f0"/>
+<circle cx="320" cy="352" r="95" fill="#fff"/><circle cx="320" cy="352" r="78" fill="#f8f2dc"/><g fill="#fdfcf6"><circle cx="286" cy="322" r="10"/><circle cx="330" cy="340" r="11"/><circle cx="354" cy="380" r="9"/><circle cx="304" cy="392" r="8"/></g>
+<circle cx="520" cy="312" r="68" fill="#d45e42"/><circle cx="520" cy="312" r="52" fill="#ef8a5f"/><path d="M476 314c36-18 71-14 103 9" stroke="#8c2f24" stroke-width="10" stroke-linecap="round" opacity=".5"/>
+<path d="M438 462c30-42 91-67 159-44 24 8 50 25 78 51-29 26-55 43-79 51-68 23-128-2-158-44 25 13 49 19 73 18-25 8-49 17-73 28Z" fill="#b9553f"/><circle cx="612" cy="459" r="8" fill="#24120d"/><path d="M475 467c42 8 81 7 118-4" stroke="#ffd189" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+<circle cx="602" cy="247" r="46" fill="#fff"/><circle cx="602" cy="247" r="34" fill="#f6cf65"/><path d="M588 238c10 14 22 20 38 17" fill="none" stroke="#ad7430" stroke-width="7" stroke-linecap="round"/>
+<circle cx="238" cy="466" r="54" fill="#fff"/><circle cx="238" cy="466" r="41" fill="#8bbb72"/><path d="M211 466c22-16 45-16 68 0" fill="none" stroke="#2f6b4e" stroke-width="8" stroke-linecap="round"/>
+<path d="M162 181c52-37 111-49 178-34" stroke="#0f433f" stroke-width="14" stroke-linecap="round" opacity=".22"/><path d="M164 213c45-20 92-25 143-13" stroke="#0f433f" stroke-width="10" stroke-linecap="round" opacity=".16"/>
+</svg>

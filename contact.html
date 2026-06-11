@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Bookings | The Fish House Goa</title>
+  <meta name="description" content="Contact The Fish House Goa for reservations, takeaway, seafood thalis, Riverside bookings, family dinners and WhatsApp enquiries." />
+  <meta name="theme-color" content="#0f433f" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar" id="topbar">
+      <a class="brand" href="index.html"><img src="logo.svg" alt="The Fish House Goa logo" /><span><strong>The Fish House</strong><small>Goan Seafood • Panaji & Ribandar</small></span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="locations.html">Locations</a><a href="gallery.html">Gallery</a><a href="contact.html" class="active">Contact</a><button class="nav-wa" data-whatsapp="booking">Book on WhatsApp</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero contact-hero section-pad reveal">
+        <p class="eyebrow">Contact</p>
+        <h1>Book a table, ask for today’s fish, or plan a family meal.</h1>
+        <p>The fastest way is WhatsApp. Choose your branch and send the ready-made message.</p>
+      </section>
+
+      <section class="contact-layout section-pad">
+        <form class="contact-form reveal" id="bookingForm">
+          <h2>WhatsApp booking form</h2>
+          <label>Your name
+            <input name="name" type="text" placeholder="Name" required />
+          </label>
+          <label>Phone
+            <input name="phone" type="tel" placeholder="Your contact number" required />
+          </label>
+          <label>Branch
+            <select name="branch">
+              <option value="panaji">Panaji - Neugi Nagar</option>
+              <option value="riverside">Riverside - Ribandar</option>
+            </select>
+          </label>
+          <label>People
+            <input name="people" type="number" min="1" value="2" />
+          </label>
+          <label>Date & time
+            <input name="datetime" type="datetime-local" />
+          </label>
+          <label>Message
+            <textarea name="message" rows="5" placeholder="Fish thali enquiry, crab booking, family dinner, takeaway..."></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send on WhatsApp</button>
+        </form>
+
+        <div class="contact-cards reveal delay-1">
+          <article>
+            <span>Panaji</span>
+            <h3>Neugi Nagar branch</h3>
+            <p>Convenient city restaurant for homely Goan thalis and casual meals.</p>
+            <button data-branch="panaji" data-whatsapp="branch">Message Panaji</button>
+          </article>
+          <article>
+            <span>Ribandar</span>
+            <h3>Riverside branch</h3>
+            <p>Family bar and restaurant for seafood specials, drinks and river views.</p>
+            <button data-branch="riverside" data-whatsapp="branch">Message Riverside</button>
+          </article>
+          <article class="social-card">
+            <span>Social</span>
+            <h3>Follow updates</h3>
+            <p>Daily thalis, catch availability and branch specials can be connected here.</p>
+            <a href="https://www.instagram.com/thefishousegoa/" target="_blank" rel="noopener">Open Instagram</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer mini-footer"><div class="footer-bottom"><span>© <span id="year"></span> The Fish House Goa</span><span>Website by Fuelerz</span></div></footer>
+  </div>
+  <button class="floating-wa" data-whatsapp="booking" aria-label="Open WhatsApp booking">WhatsApp</button>
+  <script src="script.js"></script>
+</body>
+</html>

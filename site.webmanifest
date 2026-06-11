@@ -1,0 +1,11 @@
+{
+  "name": "The Fish House Goa",
+  "short_name": "Fish House",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fff7e8",
+  "theme_color": "#0f433f",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

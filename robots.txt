@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thefishhousegoa.com/sitemap.xml

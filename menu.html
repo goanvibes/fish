@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Highlights | The Fish House Goa</title>
+  <meta name="description" content="Explore Fish House Goa menu highlights: seafood thalis, Goan curries, crab specials, Indo-Chinese starters, vegetarian options and family sharing plates." />
+  <meta name="theme-color" content="#0f433f" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar" id="topbar">
+      <a class="brand" href="index.html"><img src="logo.svg" alt="The Fish House Goa logo" /><span><strong>The Fish House</strong><small>Goan Seafood • Panaji & Ribandar</small></span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="menu.html" class="active">Menu</a><a href="locations.html">Locations</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><button class="nav-wa" data-whatsapp="booking">Book on WhatsApp</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero menu-hero section-pad reveal">
+        <p class="eyebrow">Menu highlights</p>
+        <h1>Seafood thalis, riverside specials, and crispy plates made for passing around.</h1>
+        <p>Prices and availability can change with market catch. Use WhatsApp for the fastest confirmation before ordering or booking.</p>
+        <button class="btn primary" data-whatsapp="order">Ask Today’s Menu</button>
+      </section>
+
+      <section class="section-pad menu-page-wrap">
+        <aside class="menu-side reveal">
+          <h2>Filter menu</h2>
+          <button class="menu-filter active" data-filter="all">All Highlights</button>
+          <button class="menu-filter" data-filter="thali">Thalis</button>
+          <button class="menu-filter" data-filter="seafood">Seafood</button>
+          <button class="menu-filter" data-filter="chinese">Indo-Chinese</button>
+          <button class="menu-filter" data-filter="veg">Vegetarian</button>
+          <button class="menu-filter" data-filter="drink">Drinks</button>
+          <div class="side-note">
+            <strong>Need exact price?</strong>
+            <p>Tap any dish to add it to a WhatsApp enquiry.</p>
+          </div>
+        </aside>
+        <div>
+          <div class="search-box reveal">
+            <input id="menuSearch" type="search" placeholder="Search kingfish, crab, fried rice..." aria-label="Search menu" />
+          </div>
+          <div class="menu-grid menu-full" id="fullMenuGrid"></div>
+        </div>
+      </section>
+
+      <section class="thali-builder section-pad reveal">
+        <div>
+          <p class="eyebrow">Quick order builder</p>
+          <h2>Build a WhatsApp enquiry in seconds.</h2>
+          <p>Select the branch and style of meal. The message opens ready to send.</p>
+        </div>
+        <form class="builder-form" id="orderBuilder">
+          <label>Branch
+            <select name="branch">
+              <option value="panaji">Panaji - Neugi Nagar</option>
+              <option value="riverside">Ribandar - Riverside</option>
+            </select>
+          </label>
+          <label>Meal Type
+            <select name="meal">
+              <option>Fish Thali</option>
+              <option>Prawns Thali</option>
+              <option>Chonak Thali</option>
+              <option>Crab / Seafood Boil</option>
+              <option>Indo-Chinese Starters</option>
+              <option>Family Dinner Booking</option>
+            </select>
+          </label>
+          <label>People
+            <input name="people" type="number" min="1" value="2" />
+          </label>
+          <button class="btn primary" type="submit">Open WhatsApp</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer mini-footer"><div class="footer-bottom"><span>© <span id="year"></span> The Fish House Goa</span><span>Website by Fuelerz</span></div></footer>
+  </div>
+  <button class="floating-wa" data-whatsapp="booking" aria-label="Open WhatsApp booking">WhatsApp</button>
+  <script src="script.js"></script>
+</body>
+</html>
